@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body{
+  background: url(images/breakfast.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav{
+	position: relative;
+	top: 5em;
+	left: 38.750em;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+nav ul li{
+	display: block;
+	float: left;
+	margin: 0 .2em 0 0;
+}
+
+nav ul li a {
+	color: white;
+	box-sizing: border-box;
+	display: block;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding: 14px 22px 0 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: rgba(0, 0, 0, .7);
+}
+
+section {
+	background-color: #2a2a2a;
+	clear: both;
+	color: white;
+	position: relative;
+	left: 290px;
+	top: -50px;
+	width: 250px;
+
+}
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	padding: 40px 0 20px; 0;
+	text-align: center;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    width: 60%;
+}
+
+.welcome{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 50px;
+}
+
+.welcome p{
+	box-sizing: border-box;
+	padding: 0 10px;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+.reservations{
+	box-sizing: border-box;
+	border: 1px solid white;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 50px  25px 0 25px; 
+	padding: 10px 5px 10px 15px;
+}
+
+.reservations a{
+	color: white;
+	text-decoration: none;
+}
+
+.secondHr{
+	margin-top: 200px;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    width: 80%;
+}
+
+.address{
+	font-family: 'Source Sans Pro', sans-serif;
+   text-align: center;
+}
+
+footer{
+	clear: both;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 50px;
+	text-align: center;
+}
+
+img{
+	width: 20px;
+}
+
+ul{
+  list-style: none;
+  margin-left: 60px;
+  padding: 0;
+}
+
+li{
+	display: block;
+	float: left;
+	margin: 0 0 0 0;
+}
+
+.link{
+	display: block;
+	float: left;
+	padding: 0 0 0 10px;
+	margin-left: 0;
+	text-decoration: none;
+}
