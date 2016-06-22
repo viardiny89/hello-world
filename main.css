@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+body{
+  background-color: #eff0ee;
+}
+
+p{
+	color: #737373;
+	line-height: 150%;
+	padding-left: 25px;
+}
+
+h1{
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-left: 50px;
+}
+
+h4{
+	padding-left: 25px;
+}
+
+h3{
+	padding-left: 25px;
+	margin-top: -5px;
+}
+
+a{
+	color: #737373;
+	text-decoration: none;
+}
+
+strong{
+	color: black;
+}
+
+.pngImages{
+	padding-right: 20px;
+	width: 20px;
+}
+.flex-container{
+	box-sizing: border-box;
+   -webkit-display: flex;
+   -moz-display: flex;
+   -o-display: flex;
+   display: flex;
+   -webkit-flex-wrap: wrap;
+   -moz-flex-wrap: wrap;
+   -o-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   width: 959px;
+}
+
+.flex-item{
+	background-color: white;
+	
+	border-radius: 10px;
+	box-sizing: border-box;
+	height: 313px;
+	width: 313px;
+}
+
+.name{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.name h1{
+   font-size: 3em;
+   padding-right: 50px;
+   text-align: center;
+}
+
+.name p{
+	font-size: 1.5em;
+	text-align: center;
+}
+.personalDetails{
+	margin-right: 10px;
+}
+
+.getInTouch{
+
+}
+
+.education{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.moveUp{
+	margin-top: -20px;
+}
+
+.extraSpace{
+	height: 100px;
+	overflow-y: scroll;
+}
+
+.employmentHistory{
+	margin-right: 10px;
+}
+
+.employmentHistory h1{
+	margin-left: -10px;
+}
+
+.employmentContinued{
+
+}
+
+.profesionalSkills{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.personalSkills{
+	margin-right: 10px;
+}
+
+.portfolio{
+
+}
+
+.emailMe{
+   background-color: #eff0ee;
+   width: 313px;
+}
+
+.emailMe input[type=text]{
+	padding: 5px 10px 5px 10px;
+	width: 200px;
+}
+
+.emailMe textarea{
+	padding: 5px 10px 5px 10px;
+	margin-bottom: -20px;
+	width: 200px;
+}
+
+.emailMe input[type=submit]{
+  padding: 5px 10px 5px 10px;
+  width: 70px;
+}
+ 
+input[type=submit]:hover{
+	
+} 
+
+form{
+	margin-top: -10px;
+}
+
+.authorImg{
+	border: 3px solid white;
+	position: relative;
+    margin: 0;
+	height: 90px;
+	top: -1060px;
+	left: -10px;
+	width: 90px;
+}
+
+.socialMedia{
+  position: relative;
+  left: -5px;
+  top: -1040px;
+}
+
+.socialList{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.socialList img{
+	height: 32px;
+	width: 32px;
+}
+
+span{
+ display: none;
+}
+
